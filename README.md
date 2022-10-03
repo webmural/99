@@ -1,4 +1,8 @@
-# [index](index.html)
+# [smile over to you](index.html)
 
-* [HTML](https://webmural.com/html)
-* [CSS](https://webmural.com/css)
+```css
+:focus {
+  outline: thick groove;
+  text-decoration-style: wavy;
+}
+```

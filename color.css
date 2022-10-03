@@ -1,31 +1,19 @@
+:any-link {
+  color: indigo;
+}
+
 ::selection {
   background: darkviolet;
   color: gold;
 }
 
 :root {
-  color: #200222;
-  background: skyblue;
+  background: #ed3;
+  color: rebeccapurple;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-contrast: more) {
   :root {
-    background: deepskyblue;
+    background: seashell;
   }
-}
-
-@media (prefers-contrast: less) {
-  :root {
-    color: #33113d;
-  }
-}
-
-:any-link {
-  color: #50a;
-  text-decoration-style: dotted;
-}
-
-mark {
-  color: #11111d;
-  background: magenta;
 }
